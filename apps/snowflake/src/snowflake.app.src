@@ -1,0 +1,19 @@
+%%%-------------------------------------------------------------------
+%%% @author 10621
+%%% @copyright (C) 2020, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : 24. 三月 2020 14:26
+%%%-------------------------------------------------------------------
+{application, snowflake, [
+    {description, ""},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {mod, {snowflake_app, []}},
+    {env, []}
+]}.
